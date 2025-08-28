@@ -15,12 +15,18 @@ const buttonVariants = cva(
         secondary: "bg-gray-100 text-gray-800 hover:bg-gray-200",
         ghost: "hover:bg-blue-50 text-blue-600",
         link: "text-blue-600 underline-offset-4 hover:underline",
+        premium: "bg-gradient-to-r from-yellow-500 to-yellow-600 text-white shadow-lg hover:from-yellow-600 hover:to-yellow-700",
+        map: "bg-white text-gray-800 border border-gray-300 hover:bg-gray-50",
+        schedule: "bg-white text-gray-800 border border-gray-300 hover:bg-gray-50 justify-start",
+        cta: "bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg hover:from-blue-700 hover:to-blue-800 px-6 py-3 text-lg",
+        border: "border border-white text-white hover:bg-white hover:text-blue-700 uppercase tracking-wider"
       },
       size: {
         default: "h-10 px-5 py-2",
         sm: "h-8 px-3 text-sm",
         lg: "h-12 px-6 text-base",
         icon: "h-10 w-10",
+        full: "w-full"
       },
     },
     defaultVariants: {

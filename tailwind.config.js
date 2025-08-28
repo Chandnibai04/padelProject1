@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+
+  },
+  experimental: {
+    optimizeUniversalDefaults: true,
   },
   plugins: [],
 }
